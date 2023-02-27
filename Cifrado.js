@@ -71,7 +71,7 @@ function cifrarMurcielago(texto) {
             if (abc2.indexOf(texto[i])!=-1)
             {   
                 let posicionM=abc2.indexOf(texto[i]);
-                resultadoM+=posicionM+1;
+                resultadoM+=posicionM;
                 //La variable posicion nos va a regresar la nueva posicion de la letra
                 //La variable resultado nos va a regresar la nueva letra con la nueva posicion
             }
