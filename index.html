@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cifrado César</title>
+    <script src="Cifrado.js"></script>
+    <link rel="stylesheet" href="CSS.css">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+
+<body>
+    <h1>Cifrado Cesar y Murcielago</h1>
+    <div class=w3l-login-form>
+        <h2>Cifrar</h2>
+        <div class=w3l-form-group>
+            <label>Mensaje:</label>
+            <div class=group>
+                <i class=fas fa-user></i>
+                <input type=text class=form-control placeholder=Mensaje id="cadena">
+            </div>
+            <p></p>
+            <input type="number" id="desplazamiento" class=form-control placeholder="Numero de desplazamiento"
+                size="10" />
+        </div>
+        <div class=w3l-form-group>
+            <label>Resultado:</label>
+            <div class=group>
+                <i class=fas fa-user></i>
+                <input type="text" class=form-control placeholder=ResultadoCesar id="result" disabled="">
+            </div>
+            <p>
+            <div class=group>
+                <i class=fas fa-user></i>
+                <input type="text" class=form-control placeholder=ResultadoMurcielago id="result2" disabled="">
+            </div>
+            </p>
+        </div>
+        <p><button type="button" id="cifrar">Cifrar</button></p>
+        <p><button type="button" id="descifrar">Descifrar Cesar</button> </p>
+        </form>
+</body>
+
+</html>
